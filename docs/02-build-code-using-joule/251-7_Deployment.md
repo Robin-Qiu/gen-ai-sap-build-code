@@ -1,4 +1,4 @@
-# Module 1 - Unit 7: Prepare & Deploy CAP app  
+# Prepare & Deploy CAP app  
 
 The last step in **SAP Build Code** is to deploy the application to Cloud Foundry environment on SAP Business Technology Platform. This process also involves the automatic creation of destinations, enabling OData services to be utilized by other tools such as **SAP Build Apps**.
 

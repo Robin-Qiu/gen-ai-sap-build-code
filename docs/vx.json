@@ -1,0 +1,40 @@
+{
+    "created_time": "2025-06-03T00:17:44Z",
+    "files": [
+        {
+            "attachment_folder": "196777130657448",
+            "created_time": "2025-06-03T00:17:56Z",
+            "id": "679",
+            "modified_time": "2025-06-03T00:59:56Z",
+            "name": "_sidebar.md",
+            "signature": "8029193284309892916",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2025-06-03T00:22:00Z",
+            "id": "681",
+            "modified_time": "2025-06-03T00:22:00Z",
+            "name": "index.html",
+            "signature": "11199061921091174440",
+            "tags": [
+            ]
+        }
+    ],
+    "folders": [
+        {
+            "name": "00-home"
+        },
+        {
+            "name": "01-build-code-getting-started"
+        },
+        {
+            "name": "02-build-code-using-joule"
+        }
+    ],
+    "id": "677",
+    "modified_time": "2025-06-03T00:17:44Z",
+    "signature": "16726920143711387432",
+    "version": 3
+}

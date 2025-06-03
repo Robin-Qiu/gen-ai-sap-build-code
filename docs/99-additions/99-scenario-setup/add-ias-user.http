@@ -1,0 +1,42 @@
+## Request to create users in IAS 
+## create .env file in root directory and variable ias-api-user-base64 with user credentials as env
+@ias-host = iac.accounts.ondemand.com:443
+POST /scim/Users HTTP/1.1
+Host: {{ias-host}}
+Content-Type: application/scim+json
+Authorization: Basic {{$dotenv ias-api-user-base64}}
+Content-Length: 923
+
+{
+    "schemas": [
+        "urn:ietf:params:scim:schemas:core:2.0:User",
+        "urn:ietf:params:scim:schemas:extension:sap:2.0:User",
+        "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User"
+    ],
+    "userName": "rmiller36",
+    "emails": [
+        {
+            "primary": true,
+            "value": "ricky.miller36@bestrun.com"
+        }
+    ],
+    "name": {
+        "familyName": "Miller36",
+        "givenName": "Ricky"
+    },
+    "userType": "employee",
+    "password": "Welcome1!",
+    "active": "true",
+    "urn:ietf:params:scim:schemas:extension:sap:2.0:User": {
+        "mailVerified": true,
+        "sendMail": false,
+        "passwordDetails": {
+            "status": "enabled",
+            "passwordLockedTime": "2023-04-05T09:60:51.880Z"
+        }
+    },
+    "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User": {
+        "department": "Training"
+    }
+}
+

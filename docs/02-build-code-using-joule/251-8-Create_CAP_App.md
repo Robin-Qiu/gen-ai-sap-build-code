@@ -52,7 +52,7 @@ In this lesson, you will use the Generative AI capabilities of Joule to create a
     Redemptions must have 1 field in `integer`: redeemed amount. 
     Each purchase and redemption will be associated to a customer.
     Use associations instead of compositions.
-    Use namespace 'customer_loyal_${number}'.
+    Use namespace 'customer_loyal_XX'.
     ```
     
 6. Click ![edit step](./images/edit.png) to edit step 1 and replace the prompt with the one you just copied. 
@@ -186,7 +186,7 @@ In this lesson, you will use the Generative AI capabilities of Joule to create a
     Provide the prompt: 
 
     ```code
-    rename 'myNameSpace' to 'customer_loyal_${number}'
+    rename 'myNameSpace' to 'customer_loyal_XX'
     ```
     ![](./images/123.png)
 

@@ -2,7 +2,7 @@
 
 ![](vx_images/288853594065488.png)
 
-<h2 style="text-align: center;"># Eercises #</h2>
+<h2 style="text-align: center;"># Hitachi  Astemo Hands-on Exercises#</h2>
 
 ---
 

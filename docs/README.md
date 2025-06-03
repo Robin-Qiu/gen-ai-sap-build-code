@@ -1,45 +1,37 @@
 <div class="draftWatermark"></div>
 
-# SAP BTP Adoption Lab BYOT - Speed Up Clean Core Extension with BTP CAP AI based Agile Development
 
+# Getting Started - Preparation
 ---
+Let's start the exercise and check if everything is ready to go.
+Please make sure you have completed all the necessary prerequisites listed below. If not, please raise your voice so that we can assist you early in the session.
 
-## Description
+## Prerequisites
+Please keep the following links and resources available:
 
-ThiThe purpose of the workshop is to provide a comprehensive learning experience tailored to empower participants with the practical skills and knowledge needed for effective utilization of SAP Cloud Application Programming (CAP).
-
-During the workshop, we will let you try out the hands-on on various development features to gain practical experience and will discuss about the CAP CDS, Authorization, HANA Cloud, Fiori Elements and extending S/4HANA Cloud.
-
-You will work through a set of exercises that highlight the capabilities of SAP Build Code with Joule AI copilot. Using SAP Build Code and the Joule AI copilot, you will create data entities and backend logic. 
-
-This workshop is tailored for application developers, offering the opportunity to enhance their extension development capabilities and contribute to enhance solutions within their organizations.
-
-## Overview
-
-### Exercise Overview
-In this session, you will learn how to use SAP Build Code with SAP Business Application Studio to develop apps rapidly on the SAP Business Technology Platform (SAP BTP). You will learn how to build a full-blown CRUD application, including backend services and a UI application in a matter of minutes, using only visual editors. You will connect the application to an SAP S/4HANA API. You will learn how to easily switch to code, and continue working from there to create additional business logic for your service to finally make the application available on BTP with a "one-click deployment".
-
-![](vx_images/501266288117740.png)
-
-### Use Case
-
-In this adoption lab, we will create an application for Incident Management. To achieve this, we will create a new backend service using the Cloud Application Programming Model (CAP), and a web application based on Fiori elements with which users can manage incidents.
-
-## Requirements
-
-For people who missed the pre-workshop session, please refer to the recording and deck for the rules & preparation:
-* **Recording**: https://dam.sap.com/mac/u/a/bUVjThW?rc=10&doi=SAP1142877
-* **Deck**:  https://dam.sap.com/mac/u/a/AwbECov?rc=10&doi=SAP1142879
-* **Setup guide**: https://dam.sap.com/mac/u/a/C5HSPyJ.htm?rc=10&doi=SAP1080426
-
-
-## How to obtain support
-
-* Put your question in Zoom chat or unmute yourself to ask.
-* If you need remote check, please use Zoom Raise Hand function and share your screen to explain the symptom.
+1. Make sure you have access to a browser, preferably Google Chrome.
+2. Log on to the Development Lobby  
+![](vx_images/317064936785258.png)
 
 
 
----
+## Hands-on Architecture
 
-**Live exercises at:** https://robin-qiu.github.io/BTP-CAP-Development-with-SAP-Build-Code---Bring-Your-Own-Tenant/#/
+
+![](vx_images/267634469706350.png)
+
+
+## Import the S/4HANA Cloud integration destination
+
+> Download a sample destination for S/4HANA Cloud [ADOPTION_LAB_API_BUSINESS_PARTNER](https://robin-qiu.github.io/BTP-CAP-Development-with-SAP-Build-Code---Bring-Your-Own-Tenant/vx_attachments/477573873607615/ADOPTION_LAB_API_BUSINESS_PARTNER ':include')  :truck::truck::truck:.
+
+2. Import the destination into your BTP subaccount.
+![](vx_images/76056794022621.png)
+
+3. The credential will be supplied during the adoption lab hands-on session.
+
+![](vx_images/305616256262898.png)
+
+4. If you try to "**Check Connection"**, then you will get **"200: OK"** message and this is a normal feedback.
+
+![](vx_images/433437007921942.png)

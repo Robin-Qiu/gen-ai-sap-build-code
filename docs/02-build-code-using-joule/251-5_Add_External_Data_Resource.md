@@ -6,22 +6,23 @@ In this part of the tutorial we will connect to an SAP S4/HANA to get all the re
 
     ![](./images/251-4_Screenshot_36.png)
 
-2. Under  **Systems** -> **Catalogue of Services** you will find the BTP destination **s4hana**. Click on it.
+2. Under  **Systems** -> **Services** you will find the BTP destination **s4hana**. Click on it.
 
-    ![](./images/251-5-add-system.png)
+![](vx_images/319310789511843.png)
 
-3. Search for `product` in the filter bar for Services and select service **ZAPI_PRODUCT_SRV**
+3. Set **Service Path** as `/` and click **Connect** button.
 
-    ![](./images/251-5-select-service.png)
+![](vx_images/264542077123251.png)
 
 4. Select **Add to CAP Project**
 
-    ![](./images/251-5_Screenshot_37.png)
+![](vx_images/295740595321692.png)
 
-    ![](./images/251-5_Screenshot_37b.png)
+
+    
 
     > [!NOTE]
-    This destination is already configured by your subaccount admin. The destination is connected to a SAP S/4HANA on-premise system. For more information about the API go to the SAP Business Accelerator Hub: https://api.sap.com/api/API_PRODUCT_SRV/overview
+    This destination is already configured by your subaccount admin. The destination is connected to a SAP S/4HANA Cloud system. For more information about the API go to the SAP Business Accelerator Hub: https://api.sap.com/api/API_PRODUCT_SRV/overview
 
 5. Check if the **External Resources** got updated on the **Storyboard**.
 

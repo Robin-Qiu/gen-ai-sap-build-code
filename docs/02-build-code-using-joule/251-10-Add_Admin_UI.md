@@ -12,7 +12,7 @@ You’ll design a user interface to showcase and test the content we’ve develo
 
     ```code
     Please create a new Fiori elements app with the following information: 
-    "id": "customer_loyal_${number}.customers";
+    "id": "customer_loyal_XX.customers";
     "appDescription": "Manage Customers";
     This app uses list report object page floorplan, that starts with a list of all customers and allows me to drill down into the details of a selected customer. 
     The ui5 version should be 1.130.3
@@ -37,7 +37,7 @@ You’ll design a user interface to showcase and test the content we’ve develo
 
     ```code
     Please create a new Fiori elements app with the following information: 
-    "id": "customer_loyal_${number}.purchases";
+    "id": "customer_loyal_XX.purchases";
     "appDescription": "Manage Purchases";
     This app uses list report object page floorplan, that starts with a list of all purchases and allows me to drill down into the details of a selected purchase. 
     The ui5 version should be 1.130.3
@@ -59,7 +59,7 @@ You’ll design a user interface to showcase and test the content we’ve develo
 
     ```code
     Please create a new Fiori elements app with the following information: 
-    "id": "customer_loyal_${number}.redemptions";
+    "id": "customer_loyal_XX.redemptions";
     "appDescription": "Manage Redemptions";
     This app uses list report object page floorplan, that starts with a list of all redemptions and allows me to drill down into the details of a selected redemption. 
     The ui5 version should be 1.130.3
@@ -121,7 +121,7 @@ Let's preview the customer loyalty program application you’ve just built.
 
     ![](./images/251-9_Preview-1.png)
 
-2. Select **Run customer_loyal_${number}**
+2. Select **Run customer_loyal_XX**
 
     ![](./images/251-9_Preview-2.png)
 

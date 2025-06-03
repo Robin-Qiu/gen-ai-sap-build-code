@@ -26,7 +26,7 @@ In this part of the tutorial we will connect to an SAP S4/HANA to get all the re
 
 5. Check if the **External Resources** got updated on the **Storyboard**.
 
-    ![](./images/251-5_Screenshot_38.png)
+   ![](vx_images/455899486006187.png)
 
     > [!NOTE]
     It may take a short time to update!

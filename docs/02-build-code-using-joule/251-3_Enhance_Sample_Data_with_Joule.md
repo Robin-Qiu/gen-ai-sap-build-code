@@ -1,4 +1,4 @@
-# Module 1 - Unit 3: Enhance Initial Data with Joule  
+# Enhance Initial Data with Joule  
 
 In this lesson, we will utilise the generative AI capabilities of Joule and SAP Build Code to generate initial data. This initial data will be deployed with your application.
 

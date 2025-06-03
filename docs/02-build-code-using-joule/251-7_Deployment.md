@@ -15,14 +15,14 @@ As we want to create a customized UI with SAP Build Apps on top of the deployed 
     Type in the following prompt:
     
     ``` code
-    Keep existing service in place. Add an additional service 'customer_loyal_${number}_crudSrv' with the same entities as in the original service but make them plain (not draft enabled). 
+    Keep existing service in place. Add an additional service 'customer_loyal_XX_crudSrv' with the same entities as in the original service but make them plain (not draft enabled). 
     ```
     
     Click on **Generate**.
 
     ![](./images/126.png)
 
-3. Make sure Joule adds a new service `customer_loyal_${number}_crudSrv` while keeping the existing service `customer_loyal_${number}Srv` in place.
+3. Make sure Joule adds a new service `customer_loyal_XX_crudSrv` while keeping the existing service `customer_loyal_XXSrv` in place.
 
     ![](./images/127.png)
     ![](./images/128.png)
@@ -35,10 +35,10 @@ As we want to create a customized UI with SAP Build Apps on top of the deployed 
     > ```code
     >    using { ZAPI_PRODUCT_SRV } from './external/ZAPI_PRODUCT_SRV.cds';
     >
-    >    using { customer_loyal_${number} as my } from '../db/schema.cds';
+    >    using { customer_loyal_XX as my } from '../db/schema.cds';
     >
-    >    @path : '/service/customer_loyal_${number}'
-    >    service customer_loyal_${number}Srv
+    >    @path : '/service/customer_loyal_XX'
+    >    service customer_loyal_XXSrv
     >    {
     >        @odata.draft.enabled
     >        entity Customers as
@@ -56,13 +56,13 @@ As we want to create a customized UI with SAP Build Apps on top of the deployed 
     >            projection on ZAPI_PRODUCT_SRV.A_ProductBasicText;
     >    }
     >
-    >    annotate customer_loyal_${number}Srv with @requires :
+    >    annotate customer_loyal_XXSrv with @requires :
     >    [
     >        'authenticated-user'
     >    ];
     >
-    >    @path : '/service/customer_loyal_${number}_crud'
-    >    service customer_loyal_${number}_crudSrv
+    >    @path : '/service/customer_loyal_XX_crud'
+    >    service customer_loyal_XX_crudSrv
     >    {
     >        entity Customers as
     >            projection on my.Customers;
@@ -82,20 +82,20 @@ As we want to create a customized UI with SAP Build Apps on top of the deployed 
 
     ![](./images/129.png)
 
-5. We also need to implement the same logic for the new service `customer_loyal_${number}_crudSrv` as we have for `customer_loyal_${number}Srv`.
+5. We also need to implement the same logic for the new service `customer_loyal_XX_crudSrv` as we have for `customer_loyal_XXSrv`.
 
     Select the **Explorer** icon and open file **srv** -> **service.js**.
 
-    Clone class extension **customer_loyal_${number}Srv** by copy-pasting it just below the original class extension.
+    Clone class extension **customer_loyal_XXSrv** by copy-pasting it just below the original class extension.
 
-    For the just pasted class extension, change the reference from **customer_loyal_${number}Srv** to **`customer_loyal_${number}_crudSrv`**
+    For the just pasted class extension, change the reference from **customer_loyal_XXSrv** to **`customer_loyal_XX_crudSrv`**
 
-    Add **`customer_loyal_${number}_crudSrv`** to **module.exports**, so that it looks like
+    Add **`customer_loyal_XX_crudSrv`** to **module.exports**, so that it looks like
 
     ``` code
     module.exports = {
-        customer_loyal_${number}Srv,
-        customer_loyal_${number}_crudSrv
+        customer_loyal_XXSrv,
+        customer_loyal_XX_crudSrv
     };
     ```
 

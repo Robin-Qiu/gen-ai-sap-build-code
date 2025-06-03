@@ -23,7 +23,7 @@ Please keep the following links and resources available:
 
 ## Import the S/4HANA Cloud integration destination
 
-> Download a sample destination for S/4HANA Cloud [ADOPTION_LAB_API_BUSINESS_PARTNER](https://robin-qiu.github.io/BTP-CAP-Development-with-SAP-Build-Code---Bring-Your-Own-Tenant/vx_attachments/477573873607615/ADOPTION_LAB_API_BUSINESS_PARTNER ':include')  :truck::truck::truck:.
+> Download a sample destination for S/4HANA Cloud [S4HANA](https://robin-qiu.github.io/BTP-CAP-Development-with-SAP-Build-Code---Bring-Your-Own-Tenant/vx_attachments/477573873607615/ADOPTION_LAB_API_BUSINESS_PARTNER ':include')  :truck::truck::truck:.
 
 2. Import the destination into your BTP subaccount.
 
@@ -31,8 +31,8 @@ Please keep the following links and resources available:
 
 3. The credential will be supplied during the adoption lab hands-on session.
 
-![](vx_images/489375384436699.png)
+![](vx_images/223664850142809.png)
 
 4. If you try to "**Check Connection"**, then you will get **"200: OK"** message and this is a normal feedback.
 
-![](vx_images/37148332240804.png)
+![](vx_images/514951381489265.png)

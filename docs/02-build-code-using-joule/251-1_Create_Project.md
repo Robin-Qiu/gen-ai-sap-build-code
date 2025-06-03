@@ -4,11 +4,11 @@
 
 The starting point for this tutorial is the Lobby of SAP Build, the central entry point for all SAP Build products.
 
-Open the lobby: <a href="https://iac-sap-build-code.eu10.build.cloud.sap/lobby" target="_blank">SAP Build Code Lobby</a>
+Open the lobby:
 
 <!-- Use the provided user credentials to log on using **https://iac.accounts.ondemand.com/** as Identity Provider
 
-- User Name: **rmiller${number}**
+- User Name: **rmillerXX**
 - Password: **Welcome1!**
 
 ![](./images/251-1_logon.png) -->
@@ -20,31 +20,36 @@ Open the lobby: <a href="https://iac-sap-build-code.eu10.build.cloud.sap/lobby" 
 
     ![](./images/251-1_lobby1.png)
 
-2. Select **Build an Application**
+2. Select Objective as **Application**
 
-    ![](./images/251-1_lobby2.jpg)
+![](vx_images/421372075154356.png)
 
-3. Select **SAP Build Code**
 
-    ![](./images/251-1_lobby3.jpg)
+3. Select the Category as **Full-Stack**
 
-4. Select **Full-Stack Application**
+![](vx_images/204704453875700.png)
 
-    ![](./images/251-1_lobby4.png)  
+4. Select the Type as **Full-Stack Node.JS**
+
+![](vx_images/585803122723439.png)
+   
 
 5. On the next screen, enter the following:
     
-   - Project Name: `customer_loyal_${number}`
-   - Description: `Customer Loyalty Program Model and Services ${number}`
-   - Development Stack: `Node.js`
-   - Dev Space: `Full_Stack_${number}`
+   - Project Name: `customer_loyal_XX`
+   - Description: `Customer Loyalty Program Model and Services XX`
+   - Dev Space: `Full_Stack_XX`
 
    > [!WARNING]
    > Use the provided name to easily identify your work.
 
    Click the **Create** button.
    
-   ![](./images/251-1_lobby5.jpg)
+![](vx_images/442355152478494.png)
+
+6. After your review of the configuration, create the new project.
+
+![](vx_images/351062461966248.png)
 
 6. Notice that the Project is in status **Pending Creation**.
 

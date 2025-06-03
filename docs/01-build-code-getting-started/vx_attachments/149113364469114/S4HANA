@@ -1,0 +1,13 @@
+#Password=<< Existing password/certificate removed on export >>
+#
+#Tue Jun 03 04:03:33 UTC 2025
+Type=HTTP
+HTML5.DynamicDestination=true
+User=IAC_SPA_USER5
+Authentication=BasicAuthentication
+product.name=SAP S/4HANA Cloud
+WebIDEEnabled=true
+ProxyType=Internet
+URL=https\://my300047.s4hana.ondemand.com/sap/opu/odata/sap/API_PRODUCT_SRV
+Name=S4HANA
+WebIDEUsage=odata_gen
